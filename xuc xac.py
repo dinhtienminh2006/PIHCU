@@ -27,15 +27,3 @@ while True:
     if choose == 'stop':
         os.system('cls')
         break
-
-# Importing turtle library to draw "Happt Birthday"
-import turtle
-
-# Creating our turtle cursor to draw
-my_turtle_cursor = turtle.Turtle()
-
-# Creating a separate Canvas to draw "Happy Birthday"
-my_turtle_screen = turtle.Screen()
-
-# initializing a variable for co-ordinating
-y_coordinate = -125
